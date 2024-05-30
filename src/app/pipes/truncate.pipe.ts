@@ -9,9 +9,9 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'truncate',
 })
 export class TruncatePipe implements PipeTransform {
-  transform(value: string, maxlength: number = 100): string {
-    return value.length > maxlength
-      ? value.slice(0, maxlength - 1) + '…'
+  transform(value: string = '', maxLength: number = 100): string {
+    return value.length > maxLength
+      ? value.slice(0, maxLength - 1) + '…'
       : value;
   }
 }
