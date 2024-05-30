@@ -11,4 +11,9 @@ export class AppComponent {
     value:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae blanditiis cupiditate dignissimos dolore ea id incidunt, iusto, magni molestias nemo nesciunt non optio perferendis quasi quidem vel voluptas voluptatibus!',
   };
+  public readonly progressBarExample = {
+    title: 'Progress Bar',
+    currentValue: 25,
+    maxValue: 100,
+  };
 }

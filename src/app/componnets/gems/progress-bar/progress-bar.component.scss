@@ -1,0 +1,19 @@
+.progress-container {
+  display: grid;
+  align-items: center;
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  border: none;
+}

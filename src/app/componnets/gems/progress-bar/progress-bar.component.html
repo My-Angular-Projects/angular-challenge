@@ -1,0 +1,10 @@
+<div class="progress-container">
+  <small class="progress-label">{{ currentValue }}</small>
+  <label for="progress-bar">Loading file</label>
+  <progress
+    id="progress-bar"
+    class="progress-bar"
+    [value]="currentValue"
+    [max]="maxValue"
+  ></progress>
+</div>

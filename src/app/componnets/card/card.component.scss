@@ -1,3 +1,11 @@
+:host {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
 .card {
   border: #4db6ac solid 1px;
 }

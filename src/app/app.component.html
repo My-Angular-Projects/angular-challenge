@@ -2,3 +2,9 @@
   <div>{{ truncateExample.value | truncate: 20 }}</div>
   <div>{{ truncateExample.value | truncate }}</div>
 </ch-card>
+<ch-card [title]="progressBarExample.title">
+  <ch-progress-bar
+    [currentValue]="progressBarExample.currentValue"
+    [maxValue]="progressBarExample.maxValue"
+  ></ch-progress-bar>
+</ch-card>
